@@ -270,10 +270,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   color: transparent;
   color: var(--color-light-gray);
-	text-shadow: -1px -1px 0 var(--color-light-gray),
-              1px -1px 0 var(--color-light-gray),
-              -1px 1px 0 var(--color-light-gray),
-              1px 1px 0 var(--color-light-gray);
+	text-shadow:
+	-1px -1px 0 var(--color-light-gray),
+	1px -1px 0 var(--color-light-gray),
+	-1px 1px 0 var(--color-light-gray),
+	1px 1px 0 var(--color-light-gray);
+	
 }
 
 .backdrop-title.centered::after {
