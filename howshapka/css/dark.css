@@ -1,0 +1,8 @@
+:root .dark {
+	--header-bg-color: #f0f;
+	
+	--color-light: #f4f5f6;
+	--color-light-gray: #d7dadd;
+	--color-dark-gray: #787a80;
+	--color-night-gray: #1e212c;
+}

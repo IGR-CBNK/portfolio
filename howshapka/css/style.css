@@ -1,0 +1,82 @@
+@import url(header.css);
+
+.d-flex {
+	display: flex;
+}
+.j-between {
+	justify-content: space-between;
+}
+.a-center {
+	align-items: center;
+}
+
+.container {
+	width: 1230px;
+	margin: 0 auto;
+}
+
+.construction-crane {
+	padding: 220px 0;
+	color: white;
+	width: 50%;
+}
+.construction-crane-image {
+	background-image: url(/images/crane.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.construction-crane-text span {
+	color: #ff5a30;
+}
+
+.crane-text-bg {
+	margin-bottom: 24px;
+	font-size: 72px;
+	line-height: 1.3;
+	letter-spacing: 1px;
+}
+
+.crane-text-sm {
+	margin-bottom: 61px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.btn-abt-us {
+	margin-right: 24px;
+}
+.button-list {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	padding-inline: 40px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 1.2px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: var(--border-radius);
+	border: 1px solid #fff;
+	color: #ffffff;
+}
+
+.submit-button {
+	background-color: #ff5a30;
+	border: none;
+	color: white;
+}
+
+.submit-button:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
