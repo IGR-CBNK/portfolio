@@ -165,6 +165,8 @@ svg * {
 	--color-light-gray: #d7dadd;
 	--color-dark-gray: #787a80;
 	--color-night-gray: #1e212c;
+	--gray-400: #d7dadd;
+	--gray-200: #f4f5f6;
 
 	--border-radius: 4px;
 	--border: 1px solid var(--gray-400, #d7dadd);
@@ -184,6 +186,9 @@ svg * {
 
 	--header-height: 92px;
 	--header-bg-color: #fff;
+
+	--svg-fill-color: #ff5a30;
+	--svg-fill-color: white;
 }
 
 body {
